@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login - Tienda de bebidas</title>
+        <link rel="stylesheet" href="css/login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="header" id="header">
+            <div class="logo-container">
+                <a href="index.html"><img src="IMG/logo.png" alt="Logo" class="logo"></a>
+            </div>
+            <div class="navBar">   
+                <nav class="navMenu">
+                    <ul class="ulMenu" id="ulMenu">
+                        <a href="index.html" class="inicio">
+                            <li class="homeTitle">INICIO</li>
+                        </a>
+                        <a href="products.html">
+                            <li class="productTitle">PRODUCTOS</li>
+                        </a>
+                        <a href="drinks.html">
+                            <li class="tragos">TRAGOS</li>
+                        </a>
+                        <a href="aboutUs.html">
+                            <li class="quienesSomos">QUIÉNES SOMOS</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+            <div class="iconContainer">
+                <div class="userContainer" id="userContainer">
+                    <a href="login.html" class="user">
+                        <span id="login" class="login">Ingresar</span>
+                        <i class="fas fa-user"></i>
+                        <a href="login.html" class="login"></a>
+                    </a>
+                </div>
+                <div class="cartContainer" id="cartIcon">
+                    <div class="cartContainer" id="containerCartIcon"></div>
+                        <span class="myCart">Mi carrito</span>
+                            <i class="fas fa-shopping-cart" id="cartIcon"></i>
+                        <div id="countContainer" class="countContainer"></div>
+                    </div>
+                    <div class="hamburgerMenu" id="hamburgerMenu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                
+            </div>
+        </div>
+    
+        <main class="mainContainer" id="mainContainer">
+            <div class="form-container">
+                <form  id="form" autocomplete="off">
+                    <h2 class="crearUsuario">Crear usuario</h2>
+                      <label for="name">Nombre de usuario</label>
+                      <input type="text" id="name" name="name" class="input" required>
+
+            
+    
+                      <label for="mail">
+                          <div class="email-container">
+                          E-mail<div class="complet-email" id="complet-email"></div>
+                          </div>
+                    </label>
+                            <input id="mail" name="user_mail" class="input" required>
+        
+            
+     
+                    <label for="phone">
+                        <div class="phone-container">
+                        Password<div class="complet-phone" id="complet-phone"></div>
+                        </div>
+                    </label>
+                    <input id="password" type="password" name="password" class="input" required>
+    
+            
+            
+                  <div class="button">
+                      <button type="submit" class="btn-send" id="btnCreateUser">Crear Usuario</button>
+                  </div>
+            
+                </form>
+                </div>
+        </main>
+        <footer>
+            <div class="redes">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div>
+                <div class="horario">
+                    Lunes a Viernes de 10:00 a 18:hs
+                </div>
+                <div class="whatsapp">
+                    Whatsapp128-456-325
+                </div>
+                <div class="mail">
+                    orange@gmail.com
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/login.js"></script>
+        <script src="classes/username.class.js"></script>
+        <script src="js/responsiveMenu.js"></script>
+    </body>
+</html>
+
+
+
+
